@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
+const stocks = ['GOOG' , 'AAPL', 'FB', 'AMZN', 'NFLX']
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <h1> STOCK TRACKER</h1>
+      <div className='stocks'>
+      {/*{stocks.map(stock => <StockContainer key={stock} stock={stock} />)} */}
+        </div>    
+      </div>
   );
 }
 
